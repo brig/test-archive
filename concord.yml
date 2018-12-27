@@ -4,7 +4,7 @@ flows:
 
 triggers:
   - github:
-      type: repository
-      entryPoint: onPush
-      payload:
-      	 action: "archived"
+    type: repository
+    entryPoint: onPush
+    payload:
+      action: "archived"
