@@ -6,3 +6,5 @@ triggers:
   - github:
       type: repository
       entryPoint: onPush
+      payload:
+      	 action: "archived"
