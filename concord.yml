@@ -1,0 +1,8 @@
+flows:
+  onPush:
+  - log: "${event}"
+
+triggers:
+  - github:
+      type: repository
+      entryPoint: onPush
